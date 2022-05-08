@@ -176,7 +176,7 @@ main .container .row #blp .left-side .content {
     width: 70%;
 }
 
-main .container .row #blp .left-side button{
+main .container .row #blp .left-side button {
     cursor: pointer;
     background-color: transparent;
     height: 30px;
@@ -186,35 +186,41 @@ main .container .row #blp .left-side button{
     color: white;
 }
 
-main .container .row #blp .right-side form{
+main .container .row #blp .right-side form {
     width: 80%;
     padding: 5%;
     background: rgb(244, 244, 240);
-    position: relative;
 }
 
-main .container .row #blp .right-side form input, select,.right-side button{
+main .container .row #blp .right-side form input,
+select,
+.right-side button {
     width: 100%;
     padding: 2% 0 2% 2%;
     margin: 0 0 4% 0;
     text-align: left;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-main .container .row #blp .right-side form .check-box{
+main .container .row #blp .right-side form #check-box {
+    position: relative;
+}
+
+main .container .row #blp .right-side form .check-box {
     position: absolute;
-    right: 43%;
-    bottom: 27%;
-
+    left: -1%;
+    top: 8%;
+    width: 15px;
 }
 
-main .container .row #blp .right-side p{
+main .container .row #blp .right-side p {
     margin-left: 4%;
     padding-bottom: 5%;
 }
 
 
-main .container .row #blp .right-side form button{
+main .container .row #blp .right-side form button {
+    cursor: pointer;
     border-radius: 30px;
     background: rgb(237, 81, 9);
     border: none;
@@ -223,9 +229,3 @@ main .container .row #blp .right-side form button{
     font-size: 20px;
     padding: 2px 38.5%;
 }
-
-
-
-
-
-
